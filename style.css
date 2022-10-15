@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.dark{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+}
+
+.odin{
+    position: relative;
+    top: 10px;
+}
+
+
+
+.img-1{
+    background-image: url(img.jpg);
+    background-size: cover;
+}
+
+
+.box-1{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    background: rgba(240, 240, 240, 0.3);
+    padding-right: 40px;
+}
+
+.heading{
+    box-sizing: border-box;
+    padding-right: 80px;
+}
+
+
+
+.fom-1{
+    padding-right: 50px;
+}
+
+.img-1, .wrapper{
+    padding: 0;
+}
+
+.wrapper{
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.img-1{
+    flex-basis: 25%;
+}
+
+.wrapper{
+    flex-basis: 45%;
+}
+
+.wrapper-1{
+    display: flex;
+    padding: 30px;
+}
+.h1 h3{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.input-1{
+    border: 1px solid #e5e7eb;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input-1:focus {
+    border: 1px solid blue;
+}
+
+.error{
+    border: 1px solid red;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+small{
+    color: red;
+}
+
+.box{
+    box-shadow: 5px 5px 5px rgba(240, 240, 240, 0.3);
+    margin-bottom: 30px;
+}
+
+
+.login{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+.btn-1{
+    padding-left: 30px;
+}
+
+.btn-1 input{
+    padding: 10px 30px 10px 30px;
+    background: #596D48;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
